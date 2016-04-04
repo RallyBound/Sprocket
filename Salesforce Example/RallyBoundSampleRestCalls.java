@@ -35,7 +35,8 @@ public class RallyBoundSampleRestCalls {
             '},' + 
             '"Hide_Name": false,' + 
             '"Hide_Amount": false,' + 
-            '"Is_Corp_Sponsorship": false' + 
+            '"Is_Corp_Sponsorship": false,' + 
+            '"Do_Not_Sync": true' + //set to true, so that it does not sync back into Salesforce
           '}' +
         '}';
 		
