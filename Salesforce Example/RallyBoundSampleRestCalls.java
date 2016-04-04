@@ -25,8 +25,8 @@ public class RallyBoundSampleRestCalls {
               '}]' +
             '},' + 
             '"Recipient": {' + 
-				'"Id": ' + fundraiserGoalId + //alternatively pass User_Id or Team_Id, not passing any Recipient will result in General Donation
-			'},' +  
+                '"Id": ' + fundraiserGoalId + //alternatively pass User_Id or Team_Id, not passing any Recipient will result in General Donation
+            '},' +  
             '"Payment": {' + 
               '"Paid_At": ' + unixTimestamp + ',' +
               '"Currency_Key": "USD",' + 
@@ -44,8 +44,8 @@ public class RallyBoundSampleRestCalls {
             'POST',
             jsonString
         );
-		System.debug(request.responseBody);
-		
+        System.debug(request.responseBody);
+        
         return request.responseBody;
     }
 }
